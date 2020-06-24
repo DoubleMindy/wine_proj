@@ -5,7 +5,14 @@ import pprint
 import pandas
 from collections import defaultdict
 
-data_df = pandas.read_excel('wine_full.xlsx').rename(columns = {'Категория': 'wine_type', 'Название': 'wine_title', 'Сорт': 'wine_sort', 'Цена': 'wine_price','Картинка': 'wine_pic', 'Акция': 'wine_sale'}).fillna(0)
+data_df = pandas.read_excel('wine_full.xlsx').rename(columns = {
+    'Категория': 'wine_type', 
+    'Название': 'wine_title', 
+    'Сорт': 'wine_sort', 
+    'Цена': 'wine_price',
+    'Картинка': 'wine_pic', 
+    'Акция': 'wine_sale'
+    }).fillna(0)
 
 temp_wine_dict = data_df.to_dict(orient = 'records')
 
