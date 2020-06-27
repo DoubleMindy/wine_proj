@@ -20,6 +20,9 @@
 - Цена 
 - Картинка
 
+Иллюстрация Excel-файла:
+![Иллюстрация Excel-файла](https://sun1-17.userapi.com/GkIIU3xrNc0OZDG3qYPT1XhoVXtIw7P05ph6ag/KrFPTu3dO1E.jpg)
+
 ## Цели проекта
 
 Код написан в учебных целях — это урок в курсе по Python и веб-разработке на сайте [Devman](https://dvmn.org).
