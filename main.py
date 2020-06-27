@@ -25,8 +25,6 @@ wines = defaultdict(list)
 for item in data_df:
     wines[item['wine_type']].append(item)
 
-# pprint.pprint(wine_dict, indent = 4)
-
 current_year = datetime.datetime.today().year - 1920
 
 env = Environment(
